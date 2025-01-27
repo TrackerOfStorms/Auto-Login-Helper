@@ -12,7 +12,7 @@
     if (!document.getElementById('page_login')) window.close()
     let enpass = document.querySelectorAll('input[type="password"]')[1];
     if (enpass) {
-        enpass.value = "";
+        enpass.value = "UJYve66G16N4fWg";
         if (!enpass.value) {
             alert("You need to set your password at line 15 of the Auto Login Helper (enpass.value) userscript")
             return;
